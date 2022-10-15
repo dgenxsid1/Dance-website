@@ -1,0 +1,68 @@
+
+doctype html 
+html 
+    head
+        title DX Dance Academy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar
+            ul
+                div#logo
+                     img(src="/static/logo.png")
+                li #[a(href ='/') Home]
+                li #[a(href ='/') About] 
+                li #[a(href ='/') Services]
+                li #[a(href ='/') Class Info]
+                li #[a(href ='/') Contact Us] 
+        
+        section#introSection
+            div Welcome to DX Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+        //- section#missionSection
+        div.missionSect
+            h2 Our Mission
+            div.cardWrapper
+                div.card
+                    h3 Dance to live
+                    div.card-box
+                        div.card-img
+                            img(src="/static/1.png")
+                        div.card-content
+                            p We are a high enthusiasm team who are running the academy since 2017, we were semi finalist in Dance India Dance Season 5.
+
+                div.card
+                    h3 Art and Science of dance
+                    div.card-box
+                        div.card-img
+                            img(src="/static/2.png")
+                        div.card-content
+                            p We will teach you the art and science of every moves in dance. This will make you feel connected with yourslef with every move you perform.
+
+                div.card
+                    h3 Healthy Body and Healthy Mind
+                    div.card-box
+                        div.card-img
+                            img(src="/static/3.png")
+
+                        div.card-content
+                            p Dance will not only make your body healthy but also cleansen your mind and allow for a better determination and focus in life.
+        section#sponsorsSection
+            h2 Our Sponsors
+            div.sponsorWrapper
+                img(src="/static/sponsor_1.jfif")
+                img(src="/static/sponsor_2.jfif")
+                img(src="/static/sponsor_3.jfif")
+                img(src="/static/sponsor_4.jfif")
+        footer#footer
+             h3 Great dancers are not great because of their technique, they are great because of their passion
+             | br br br
+             
+             h4 Address: Sector 3, Shivpura, Siliguri-631621
+<<<<<<< HEAD
+             p  Visit us to know more.
+=======
+             p  Visit us to know more.
+             h5 Copyright 	&#169 2022 DX Dance Academy | All rights reserved
+>>>>>>> 83cf12a (feat: added Contact page, refactor: updated pug files, style: changed the background of navbar)

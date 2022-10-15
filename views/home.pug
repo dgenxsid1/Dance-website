@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts 
+    script(scr = '/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+block content
+    section#introSection
+        div Welcome to DX Dance Academy
+        div.small Eat Sleep Dance Repeat
+    //- section#missionSection
+    div.missionSect
+        h2 Our Mission
+        div.cardWrapper
+            div.card
+                h3 Dance to live
+                div.card-box
+                    div.card-img
+                        img(src="/static/1.png")
+                    div.card-content
+                        p We are a high enthusiasm team who are running the academy since 2017, we were semi finalist in Dance India Dance Season 5.
+
+            div.card
+                h3 Art and Science of dance
+                div.card-box
+                    div.card-img
+                        img(src="/static/2.png")
+                    div.card-content
+                        p We will teach you the art and science of every moves in dance. This will make you feel connected with yourslef with every move you perform.
+
+            div.card
+                h3 Healthy Body and Healthy Mind
+                div.card-box
+                    div.card-img
+                        img(src="/static/3.png")
+
+                    div.card-content
+                        p Dance will not only make your body healthy but also cleansen your mind and allow for a better determination and focus in life.
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponsorWrapper
+            img(src="/static/sponsor_1.jfif")
+            img(src="/static/sponsor_2.jfif")
+            img(src="/static/sponsor_3.jfif")
+            img(src="/static/sponsor_4.jfif")
+
