@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a website for a popular dance Academy",
   "engines": {
-    "node": "5.9.1"
+    "node": "16.5.0"
   },
   "main": "app.js",
   "scripts": {
